@@ -1,0 +1,30 @@
+*, *::before, *::after{
+    box-sizing: border-box;
+}
+
+.container{
+    background-color: cornflowerblue;
+    width: 600px;
+    height: 400px;
+    margin: 0 auto;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+
+}
+
+.container__content{
+    background-color: white;
+    display: inline-block;
+    padding: 10px;
+}
+
+.content-content{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
